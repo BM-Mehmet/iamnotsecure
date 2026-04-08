@@ -10,7 +10,5 @@ iamnotsecure, bir siber güvenlik portföyü projesidir. Amaç, zafiyetli altyap
 Proje, CWE ve OWASP Top 10 uyumlu bir akademik disiplinle hazırlanmıştır:
 
 - `labs/RCE/` : Uzaktan komut çalıştırma açıkları
-- `labs/SQLi/`: Veri tabanı enjeksiyonları
-- `labs/XSS/` : Web arayüzü zafiyetleri
-- `labs/Broken-Auth/`: Yetkilendirme hataları
+
 
