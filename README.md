@@ -11,4 +11,12 @@ Proje, CWE ve OWASP Top 10 uyumlu bir akademik disiplinle hazırlanmıştır:
 
 - `labs/RCE/` : Uzaktan komut çalıştırma açıkları
 
+# Lab kurulumu için setup.sh dosyasını kullanın.
+Sanal lab ağı oluşturulacak ve Metasploit imajı indirilecek.
+Her lab içinde kendi setup scripti bulunmaktadır.
+```sh
+bash setup.sh
+```
+
+
 
