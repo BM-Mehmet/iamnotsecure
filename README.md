@@ -27,14 +27,14 @@ Her laboratuvar dizini kendi içinde bağımsız bir ekosistemdir. Bir laboratuv
 
 ## 4. Dizin Hiyerarşisi
 
-labs/RCE/
-├── CVE-XXXX-XXXX-uygulama/ # Zafiyet Klasörü (Örn: CVE-2021-44228-log4j)
-│   ├── docker-compose.yml  # Konteynerize altyapı tanımı
-│   ├── setup.sh            # Ortam kurulum betiği
-│   ├── exploit.md          # Adım adım PoC ve MSF senaryoları
-│   └── README.md           # Akademik analiz ve çözüm yolları
-├── Readme.md               # Kategorik dokümantasyon
-└── setup.sh                # Global ağ yapılandırma betiği
+    └── 📂 labs/RCE/
+       ├── 📂 CVE-XXXX-XXXX-uygulama/      # Zafiyet Spesifik Dizini
+       │   ├── 📄 docker-compose.yml       # Konteynerize altyapı tanımı (Docker/Podman)
+       │   ├── ⚙️ setup.sh                 # Modül bazlı ortam kurulum betiği
+       │   ├── 💀 exploit.md               # Adım adım PoC ve MSF senaryoları
+       │   └── 📘 README.md                # Akademik analiz ve çözüm (Remediation)
+       ├── 📖 Readme.md                    # RCE kategorisi genel dokümantasyonu
+       └── ⚙️ setup.sh                     # Global sanal ağ yapılandırma betiği
 
 ## 5. Yasal Uyarı
 
