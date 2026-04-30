@@ -16,7 +16,7 @@ Her laboratuvar dizini kendi içinde bağımsız bir ekosistemdir. Bir laboratuv
 
 - **Ortamı Hazırla:**
    ```bash
-   cd labs/RCE/CVE-[İlgili-Yıl]-[ID]
+   cd labs/RCE/[CVE-kodu]-[uygulama]
    bash setup.sh
    ```
    Analiz ve Sömürü:
